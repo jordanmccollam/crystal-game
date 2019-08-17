@@ -1,0 +1,15 @@
+
+.jumbotron {
+    background: url("../images/background.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.instructions {
+    background: rgb(151,229,252);
+}
+
+
+.gems img {
+    width: 100px;
+    height: 100px;
+}

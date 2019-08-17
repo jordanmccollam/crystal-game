@@ -21,7 +21,72 @@
 </head>
 <body>
 
+    <div class="jumbotron text-center mb-0 border-bottom border-secondary">
+        <h1 class="display-2 border-bottom border-secondary pb-4 mb-4">
+            <span class="text-danger">C</span>r<span class="text-success">y</span><span class="text-primary">s</span>t<span class="text-warning">a</span>l 
+            <span class="text-success">G</span><span class="text-warning">a</span>m<span class="text-primary">e</span>
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <h1 class="display-3 border-right border-left border-secondary magic-number"></h1>
+                    <p class="text-secondary">Magic Number</p>    
+                </div>
+                <div class="col-5"></div>
+            </div>
+        </div>
+
+    </div>
     
-    
+    <div class="container mt-0">
+        <div class="row">
+            <!-- GAME -->
+            <div class="col-7">
+                <div class="row gems my-3">
+                    <div class="col-3">
+                        <button class="btn btn-light"><img src="assets/images/redgem.png" alt="Red Gem" class="crystal-image" id="red-gem"></button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-light"><img src="assets/images/bluegem.png" alt="Blue Gem" class="crystal-image" id="blue-gem"></button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-light"><img src="assets/images/greengem.png" alt="Green Grem" class="crystal-image" id="green-gem"></button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-light"><img src="assets/images/yellowgem.png" alt="Yellow Gem" class="crystal-image" id="yellow-gem"></button>
+                    </div>
+                </div>
+
+                <div class="row stats">
+                    <!-- WINS AND LOSSES -->
+                    <div class="col-6">
+                        <h3 class="py-3 mb-3"></h3>
+                        <h3 class="py-3">Wins: <span class="wins">0</span></h3>
+                        <h3 class="py-3">Losses: <span class="losses">0</span></h3>
+                    </div>
+
+                    <!-- USER SCORE -->
+                    <div class="col-6 text-center">
+                        <h3 class="border-bottom border-secondary py-3 mb-3">Your total score:</h3>
+                        <h2 class="display-2 user-score">0</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- INSTRUCTIONS -->
+            <div class="col-5 instructions border-left border-right border-secondary">
+                <h3 class="text-center border-bottom border-secondary py-3 mb-3">Instructions:</h3>
+                <p>1. You will be given a random number at the start of the game</p>
+                <p>2. There are four crystals below. By clicking on one you will add a specific amount of points to your score</p>
+                <p>3. You win the game by matching your total score to the magic number</p>
+                <p>4. You lose the game if your total score goes above the magic number</p>
+                <p>5. The value of each crystal is hidden until you click on it.</p>
+                <p>6. Each time the game starts, the crystals values will change</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
