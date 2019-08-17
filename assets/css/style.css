@@ -1,5 +1,5 @@
 
-.jumbotron {
+.header {
     background: url("../images/background.jpg") no-repeat;
     background-size: 100%;
 }
@@ -12,4 +12,18 @@
 .gems img {
     width: 100px;
     height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .game-heading {
+        display: none;
+    }
+
+    .instructions {
+        display: none;
+    }
+
+    .gems {
+        text-align: center;
+    }
 }
